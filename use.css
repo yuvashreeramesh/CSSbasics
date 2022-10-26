@@ -1,0 +1,141 @@
+/**{
+	background-color: coral;
+	color: white;
+}*/
+
+div{
+	text-align: center;
+}
+
+
+h1{
+	align-items: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 35px;
+}
+p{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.int{
+	background-color: yellow;
+    background-image: url(https://i.pinimg.com/originals/87/66/c4/8766c4c5af59bb8d606e93b397a5cdfb.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.int h1{
+	color: beige;
+	text-align:center;
+	border-style: solid;
+	border-color: #f9f6f3;
+	border-left: solid;
+	border-top:dotted;
+
+}
+.int > p{
+font-size: 40px;
+text-align: center;
+color: aliceblue;
+}
+.int img{
+	margin-top: 120px;
+	width: 100px;
+	height: 100px;
+	
+}
+.int button{
+	background-color:blanchedalmond;
+	color:cornflowerblue;
+	border-width: 5px;
+	border: solid black;
+	border-radius: 15px;
+	margin: 50px;
+	padding:2px 4px 2px 4px;
+}
+
+.test {
+    background-color: rgb(49, 49, 232);
+	padding: 40px;
+	width:auto;
+	max-width: 500px;
+	border: solid black;
+	
+}
+
+.text h1{
+	text-shadow: 3px 2px coral;
+
+}
+.text{
+	text-align: justify;
+	
+	text-transform: capitalize;
+}
+
+.link a :active{
+	color: white;
+}
+
+.link a:hover{
+	color:green;
+}
+.link a :visited{
+	color:red;
+}
+
+.facebook{
+	background-color:#4267B2 ;
+	padding: 10px;
+	border-radius: 10px;
+	color: white;
+	border:white;
+
+}
+.google{
+	background-color:#FF0000;
+	padding: 10px;
+	border-radius: 10px;
+	color: white;
+	border:white;
+
+}
+.twitter{
+	background-color:#1DA1F2;
+	padding: 10px;
+	border-radius: 10px;
+	color: white;
+	border:white;
+
+}
+
+ol{
+	background-color: green;
+}
+ol li{
+	background-color: black;
+}
+
+table{
+	width:100%;
+	border:solid 1px black;
+	border-collapse: collapse;
+	width:100%;
+	text-align:center;
+	margin:5px;
+	
+}
+th{
+	padding:15px;
+	border:solid #1f262c;
+	background-color: crimson;
+}
+td{
+	padding: 15px;
+	border:#1f262c solid;
+}
+
+tr :hover{
+	background-color: #1f262c;
+}
+tr :hover :nth-child(odd){
+	background-color: aliceblue;
+}
